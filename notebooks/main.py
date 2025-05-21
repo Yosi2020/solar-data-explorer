@@ -22,11 +22,12 @@ def load_data():
     Returns a single combined DataFrame with a 'Country' column.
     """
     data_path = Path(__file__).parent.parent / "data"
+    print("Looking for files in:", data_path.resolve()) 
 
     # CSV paths
-    benin_path        = data_path / "benin-clean.csv"
-    sierraleone_path  = data_path / "sierraleone-clean.csv"
-    togo_path         = data_path / "togo-clean.csv"
+    benin_path        = data_path / "benin-malanville-clean.csv"
+    sierraleone_path  = data_path / "sierraleone-bumbuna-clean.csv"
+    togo_path         = data_path / "togo-dapaong-clean.csv"
 
     # Load
     df_benin        = pd.read_csv(benin_path)
@@ -95,9 +96,9 @@ def main():
     st.subheader("Countries Ranked by Average GHI")
     avg_ghi = (
         df.groupby('Country')['GHI']
-          .mean()
-          .sort_values(ascending=False)
-          .reset_index(name="Mean GHI")
+        .mean()
+        .sort_values(ascending=False)
+        .reset_index(name="Mean GHI")
     )
     st.table(avg_ghi)
 
