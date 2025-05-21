@@ -8,7 +8,7 @@ This repository provides comprehensive code, Jupyter notebooks, visualizations, 
 
 Access the interactive dashboard online via Streamlit Cloud:
 
-👉 [Solar Data Explorer Dashboard](https://yosi2020-solar-data-explorer-notebooksmain-w3u8gl.streamlit.app/)
+👉 [Solar Data Explorer Dashboard](https://yosi2020-solar-data-explorer-appmain-trvxrs.streamlit.app/)
 
 ---
 
@@ -110,7 +110,7 @@ Launch the Streamlit dashboard explicitly:
 streamlit run app/main.py
 ```
 
-Your dashboard will explicitly launch at: [http://localhost:8501](http://localhost:8501)
+Your dashboard will explicitly launch
 
 ---
 
@@ -140,7 +140,7 @@ The analysis clearly ranks the solar potential of each country explicitly:
 
 ## 📌 Access Dashboard Online (Streamlit Cloud)
 
-👉 [Solar Data Explorer Dashboard](https://yosi2020-solar-data-explorer-notebooksmain-w3u8gl.streamlit.app/)
+👉 [Solar Data Explorer Dashboard](https://yosi2020-solar-data-explorer-appmain-trvxrs.streamlit.app/)
 
 ---
 
