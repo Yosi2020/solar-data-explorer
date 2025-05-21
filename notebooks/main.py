@@ -21,7 +21,7 @@ def load_data():
     Loads cleaned CSVs for Benin, Sierra Leone, and Togo (or more if desired).
     Returns a single combined DataFrame with a 'Country' column.
     """
-    data_path = Path(__file__).parent.parent / "data" / "cleaned"
+    data_path = Path(__file__).parent.parent / "data"
 
     # CSV paths
     benin_path        = data_path / "benin-clean.csv"
