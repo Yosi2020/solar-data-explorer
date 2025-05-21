@@ -27,7 +27,7 @@ This directory contains Jupyter notebooks and scripts for performing exploratory
 ## 🚀 Interactive Dashboard
 Interactively visualize and explore the analysis results through the Solar Data Explorer Dashboard:
 
-👉 [**Launch Solar Data Dashboard**](https://yosi2020-solar-data-explorer-notebooksmain-w3u8gl.streamlit.app/)
+👉 [**Launch Solar Data Dashboard**](https://yosi2020-solar-data-explorer-appmain-trvxrs.streamlit.app/)
 
 **Features include:**
 - Interactive country and metric selection
